@@ -1,0 +1,173 @@
+/*CHANGE THIS LATER*/
+
+html {
+  font-family: "Verdana", "Geneva", "sans-serif";
+  overflow: scroll;
+}
+
+#title {
+  text-align: center;
+  color: red;
+  font-size: 40px;
+}
+#section {
+  margin-left: 75px;
+  text-align: left;
+  color: black;
+  font-size: 15px;
+}
+/*#explain
+{
+    text-align: left;
+    color: black;
+    font-size: 20px;
+}
+#image
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}*/
+
+#startButton {
+  color: blue;
+  padding: 15px 25px;
+}
+
+select {
+  color: black;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: black;
+}
+#titleAbout {
+  font-family: American Typewriter, serif;
+  text-align: center;
+  color: #8b131d;
+  font-size: 75px;
+}
+#history {
+  font-family: American Typewriter, serif;
+  text-align: left;
+  color: #13598b;
+  font-size: 25px;
+  margin-left: 5em;
+}
+#math {
+  font-family: American Typewriter, serif;
+  text-align: left;
+  color: #black;
+  font-size: 25px;
+  margin-left: 5em;
+}
+footer {
+  position: absolute;
+  top: 700px;
+  left: 75px;
+}
+
+#pointTracker {
+  padding: 10px;
+  position: absolute;
+  right: 150px;
+  bottom: 300px;
+  border: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  position: fixed;
+}
+
+#coinDecor {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#card {
+  border: 3px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
+}
+
+/* Add some padding inside the card container */
+#container {
+  padding: 10px 16px;
+}
+.peoplePlaying {
+  float: right; margin-right: 8em; margin-left: 1em;
+  width: 25%;
+  height: auto;
+}
+img {
+  float: left;
+  width: 100%;
+  height: width;
+  object-fit: cover;
+}
+.images1 {
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: width;
+  width: 50%;
+}
+.angle {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  z-index: 2;
+  padding-left: 8em;
+  padding-bottom: 8em;
+}
+.carromBoard {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  z-index: 2;
+  padding-left: 8em;
+  padding-bottom: 8em;
+  position-fixed;
+}
+
+#outline 
+{
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 250px;
+  bottom: 40px;
+  z-index: 0;
+}
+/* .maincontainer {
+  position: relative;
+  width:250px;
+  height: 320px;
+  background: green;
+}
+.thecard {
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+  background: yellow;
+}
+.thefront {
+  position: absolute;
+  height: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: #ffc728;
+  color: #333;
+}
+.theback {
+  position: absolute;
+  height: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: #fafafa;
+  color: #333;
+  transform: rotateY(180deg);
+} big sad cards didn't work out :( */

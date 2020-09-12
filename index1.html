@@ -1,0 +1,48 @@
+<!-- Single-player version.-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="game.js"></script>
+    <title>Carrom Board Simulation</title>
+  </head>
+  <body>
+    <h2 id="title">Welcome to the Carrom Board Simulation!</h2>
+    <!--<img id="coinDecor" src = >-->
+    <div id="section">
+      <u1>
+        <label>Rules:</label>
+        <li>Click and flick your mouse to strike and land your coin into one of the board's nets.</li>
+        <li>+1 for every successful strike.</li>
+        <li>
+          +5 for the red coin. But, there's a catch! You must successfully
+          strike another coin afterwards to keep the red coin.
+        </li>
+      </u1>
+      <h5>
+        Hit start when you're ready to play. Head over to
+        <a href="about.html">History</a>
+        to learn more.
+      </h5>
+      <button onclick="setUpGame()">Start</button>
+    </div>
+
+    <canvas id="myCanvas" width="480" height="480"></canvas>
+    <!--<img id = "outline"  src ="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRGibbX4Bn5JnvvuZCba1oRfPXktB9wYdzxZAtxHqwhWzejLqmxzqjzl-GAbZA-eU_5fJGHszdoxjG_u-f8v8BrqgXr-cUwE7SKSkjlpWkhYGz1Pv5PBtt4&usqp=CAE">-->
+    <script src="game.js"></script>
+    <h4 id="pointTracker">Points: 0</h4>
+    <footer>
+      <form id="reviewForm">
+        <label for="review">How did you like this game?: </label>
+        <select id="review" name="review">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <input id="reviewInput" type="submit" onclick = "windows.alert('Thanks!')"/>
+      </form>
+    </footer>
+  </body>
+</html>
